@@ -8,8 +8,24 @@
     width: 10%
 }
 .card{
-  min-height: max-content;
+  /* position: absolute; */
+  height: 60vh;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(140, 0, 255));
+
+}
+.paragraph{
+  font-family: Atts;
+  font-size: x-large;
 }
 .carousel .slide{
+  /* position: relative; */
+
   min-height: max-content;
+}
+.carousel-inner{
+  border: red !important
+}
+.carousel-indicators{
+  position: fixed;
+  margin-bottom: 5%;
 }

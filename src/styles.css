@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: Atts;
+  src: url('./PAPYRUS.TTF');
+}
+body{
+  background-image: url('assets/images/intro.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position-y: 100%;
+}
